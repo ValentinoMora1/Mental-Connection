@@ -285,3 +285,32 @@ nav div ul li{
 p{
     text-align: center;
 }
+@media (max-width: 768px){
+    .header{
+        flex-direction: column;
+    }
+}
+@media (max-width: 768px){
+    .body{
+        flex-direction: column;
+    }
+}
+.contenedor-img{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.contenedor-img .pseudo-card-content{
+    flex: 1;
+}
+.contenedor-img .pseudo-card-content{
+    max-width: 100%;
+    height: auto;
+    order: 2;
+    flex: 1;
+}
+@media (max-width: 768px){
+    .contenedor-img .pseudo-card-content{
+        flex-direction: column;
+    }
+}
