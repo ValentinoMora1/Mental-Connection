@@ -231,7 +231,7 @@ footer{
   transition: 0.7s;
   filter: grayscale(0%);
 }
-.animated-logo {
+.animated-logo{
   width: 50%;
   animation: rotate 2s linear infinite;
   justify-content: center;
